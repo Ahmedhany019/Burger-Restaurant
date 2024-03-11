@@ -277,6 +277,7 @@ h2::after{
 }
   .menu-page .container .box .image img{
     width: 100%;
+    margin-top: 0
   }
   .menu-page .box .icon{
   background-color: var(--main-color);
@@ -509,3 +510,20 @@ color: white;
   border-top: 1px solid #444;
 }
 /* End Footer  */
+/* <!-- button  --> */
+.btn{
+  width: 35px;
+  height: 35px;
+  background-color: var(--main-color);
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  border:none;
+  font-weight: bold;
+  font-size: 17px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: none;
+  transition: 0.5s;
+}
